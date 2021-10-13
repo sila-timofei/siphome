@@ -552,51 +552,50 @@
     margin-bottom: 76px;
 }
 
-.slider-wrapper {
+
+
+.slider-body {
     position: relative;
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.slider-wrapper-slids {
-    transition: 0.5s;
-}
-
-.slider-btn-prev {
-    left: 0;
-    transform: translateY(-50%) translateX(-50%) rotate(180deg);
-}
-
-.slider-btn-prev, .slider-btn-next {
-    position: absolute;
-    top: 50%;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    background-color: #262B35;
-    background-image: url('../img/arrow.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.4;
-    cursor: pointer;
-}
-
-.slider-btn-next {
-    right: 0;
-    transform: translateY(-50%) translateX(50%);
+.slider-wrap {
+    padding-left: 23px;
+    width: 4624px;
 }
 
 .slider-slid {
+    margin-right: 46px;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    width: 1170px;
-    margin-right: 40px;
+    justify-content: center;
 }
 
 .slider-slid:last-child {
     margin-right: 0;
+}
+
+.slider-arrow {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #262B35;
+    opacity: 0.4;
+    border-radius: 50%;
+    font-size: 0;
+    z-index: 266;
+    top: 50%;
+}
+
+.slider-prev {
+    transform: rotate(180deg) translateY(50%);
+    left: 0;
+}
+
+.slider-next {
+    transform: translateY(-50%);
+    right: 0;
 }
 
 .slider-item {
@@ -606,6 +605,11 @@
     box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.06);
     border-radius: 24px;
     width: 555px;
+    margin-right: 46px;
+}
+
+.slider-item:last-child {
+    margin-right: 0;
 }
 
 .slider-item::after {
@@ -625,7 +629,6 @@
     right: 0;
     top: 0;
     transform: translateX(16px) translateY(-20px);
-    z-index: 347;
 }
 
 .slider-review-text {
@@ -678,6 +681,8 @@
     background-color: #1C57C9;
     opacity: 1;
 }
+
+
 
 .contacts {
     padding: 180px 0;

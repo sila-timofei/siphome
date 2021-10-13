@@ -494,6 +494,12 @@
     background-position: center;
 }
 
+.services-wrap-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .services-list-item {
     margin-top: 820px;
     margin-bottom: 160px;

@@ -204,7 +204,7 @@
     }
 
     .services-wrap-list {
-        display: flex;
+        flex-direction: row;
         margin-bottom: 48px;
     }
 }

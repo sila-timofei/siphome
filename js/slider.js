@@ -28,6 +28,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
         /* 3590 */
 
+        offset = SLIDE_WIDTH * 1 * -1;
+        slidsLine.style.transform = `translateX(${offset}px)`;
+        flashActiveDot();
+
     btnNext.addEventListener('click', () => {
         if (offset <= maxOffset * -1) {
             offset = 0;

@@ -1,0 +1,150 @@
+.testimonials {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 160px;
+}
+
+.testimonials-title {
+  margin-bottom: 76px;
+}
+
+.slider-body {
+  position: relative;
+}
+
+.slider-wrap {
+  padding-left: 23px;
+  width: 4624px;
+}
+
+.slider-slid {
+  margin-right: 46px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-slid:last-child {
+  margin-right: 0;
+}
+
+.slider-arrow {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-image: url('../img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #262B35;
+  opacity: 0.4;
+  border-radius: 50%;
+  font-size: 0;
+  z-index: 266;
+  top: 50%;
+}
+
+.slider-prev {
+  transform: rotate(180deg) translateY(50%);
+  left: 0;
+}
+
+.slider-next {
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.slider-item {
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  width: 555px;
+  margin-right: 46px;
+}
+
+.slider-item:last-child {
+  margin-right: 0;
+}
+
+.slider-item::after {
+  position: absolute;
+  content: '';
+  bottom: 40px;
+  right: 40px;
+  width: 74px;
+  height: 64px;
+  background-image: url('../img/review-quotes.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider-review-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(16px) translateY(-20px);
+}
+
+.slider-review-text {
+  max-width: 420px;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #262B35;
+  margin-bottom: 40px;
+}
+
+.slider-review-name {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262B35;
+  margin-bottom: 12px;
+}
+
+.slider-review-position {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #606C84;
+}
+
+.slider-dots {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.slider-dots-item {
+  width: 12px;
+  height: 12px;
+  background: #606C84;
+  opacity: 0.2;
+  margin-right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-dots-item:last-child {
+  margin-right: 0;
+}
+
+.active-slider {
+  background-color: #1C57C9;
+  opacity: 1;
+}
+
+
+@media screen and (max-width:940px){
+  .slider-slid {
+    margin-right: 46px;
+    position: relative;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+    width: 555px;
+  }
+}

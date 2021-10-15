@@ -1,0 +1,119 @@
+.footer-row {
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.footer-logo {
+  margin-bottom: 44px;
+}
+
+.footer-adress {
+  margin-bottom: 54px;
+}
+
+.footer-adress, .footer-contact {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #262B35;
+  width: 400px;
+  white-space: pre-line;
+}
+
+.footer-adress > span {
+  font-weight: bold;
+}
+
+.footer-nav > li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav1 {
+  width: 143px;
+}
+
+.footer-nav2 {
+  width: 192px;
+}
+
+.footer-nav > li, a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 20px;
+  color: #606C84;
+  transition: 0.1s;
+}
+
+.footer-nav > li {
+  list-style: none;
+  margin-bottom: 30px;
+  color: #262B35;
+  font-weight: bold;
+}
+
+.footer-nav > li > a:hover {
+  color: #1C57C9;
+  font-weight: 600;
+}
+
+.footer-nav-link  {
+  align-items: center;
+}
+
+.footer-item-social-icon {
+  margin-right: 22px;
+}
+
+.copyter {
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #606C84;
+}
+
+
+@media screen and (max-width: 940px){
+  .footer-row {
+    flex-wrap: wrap;
+  }
+
+  .footer-info-company {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer-row {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+
+  .footer-row > .flex-item {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .footer-info-company {
+    width: auto;
+    text-align: center;
+    margin-bottom: 97px;
+  }
+
+  .footer-adress, .footer-contact {
+    font-size: 18px;
+    line-height: 27px;
+    width: 100%;
+  }
+
+  .copyter {
+    text-align: center;
+    white-space: pre-line;
+  }
+}

@@ -30,4 +30,17 @@
     margin-bottom: 60px;
 }
 
+.btn {
+    padding: 13px 22px;
+    text-align: center;
+    background: #1ECE7A;
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 18px;
+}
+
 @import "header", "first-screen", "about", "update", "services", "testimonials", "contacts", "footer";

@@ -1,0 +1,121 @@
+.contacts {
+  padding: 180px 0;
+}
+
+.contacts-left-side {
+  margin-right: 174px;
+  width: 424px;
+}
+
+.contacts-title {
+  margin-bottom: 42px;
+}
+
+.overtitle-contacts {
+  margin-top: 32px;
+}
+
+.form-title {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262B35;
+  margin-bottom: 14px;
+}
+
+.form-field {
+  width: 420px;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.form-select-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.form-select {
+  appearance: none;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.form-select-wrapper::after {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 7px;
+  background-image: url('../img/arrow-bottom.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.form-field-message {
+  height: 96px;
+}
+
+.form-btn-send {
+  padding: 13px 36px;
+  background-color: #1ECE7A;
+  border-radius: 3px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width:940px){
+  .contacts-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-left-side {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contacts-img {
+    margin-bottom: 60px;
+    max-width: 100%;
+  }
+
+  .form-btn-send {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .contacts-row > .flex-item {
+    width: 100%;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+
+}

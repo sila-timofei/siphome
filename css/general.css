@@ -14,6 +14,22 @@
   }
 }
 /* mobile */
+@media screen and (max-width: 640px) {
+  .overtitle {
+    margin-bottom: 13px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle-text {
+    white-space: normal;
+    margin-bottom: 48px;
+  }
+}
 /* tablet + desktop */
 @media screen and (min-width: 641px) {
   .tablet {
